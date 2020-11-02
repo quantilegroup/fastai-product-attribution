@@ -78,7 +78,7 @@ acc_metric = partial(accuracy_multi, thresh=0.2)
 f_score_metric = partial(F1ScoreMulti, thresh=0.2)
 
 # Download standard ResNet50 to use as our base weights. The last layer will be removed and initialized again with random weights
-learn = cnn_learner(dls, resnet50)  # , metrics=[acc_metric, f_score_metric])
+learn = cnn_learner(dls, resnet50, metrics=[acc_metric, f_score_metric])
 
 # Find the best pick for our initial learning rates
 learn.lr_find()
