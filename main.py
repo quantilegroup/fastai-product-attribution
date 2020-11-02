@@ -4,7 +4,10 @@ import torch
 import matplotlib.pyplot as plt
 
 # NOTE this script is meant to be a tutorial, with extra comments for
-# illustrative purposes
+# illustrative purposes. The hardest part of running this script is getting fast.ai's DataLoader to
+# work for your use case. We recommend reading their docs here:
+#   - docs: https://docs.fast.ai/data.load
+#   - tutorial: https://github.com/fastai/fastbook/blob/master/06_multicat.ipynb
 
 
 def duplicate_unique_rows(df, classes):
