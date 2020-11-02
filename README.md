@@ -12,6 +12,7 @@ Sources:
 - [iMaterialist Kaggle Competition](https://www.kaggle.com/hyeonho/imaterialist-fashion-2019-at-fgvc6-eda)
 - [Getting similiar vectors using Spotify's Annoy](https://towardsdatascience.com/similar-images-recommendations-using-fastai-and-annoy-16d6ceb3b809)
 - [Interesting use case overview](https://www.linkedin.com/pulse/building-personalized-real-time-fashion-collection-recommender-thia/)
+- Guide to fastai v2 DataBlocks (https://github.com/fastai/fastbook/blob/master/06_multicat.ipynb)
 
 Use Cases:
   - Recommendation Engines: helping customers find related products ("products like this")
@@ -19,6 +20,7 @@ Use Cases:
   - Tagging: extracting product features for use in forecasting and categorization
   - Inventory audits: identifying incorrect product categories
   - PyTorch models: https://www.kaggle.com/jpraveenkanna/fashion-classification
+
 
 Guides:
 - Kaggle Fashion
@@ -61,3 +63,18 @@ TODOs:
 - Delete product data
 - Use a mix of CV and NLP
 - Apply image transformations
+
+Writeup:
+- Train on small images
+- Transform images with vertical scaling, lighting, etc.
+- ResNet50 (transfer learning)
+
+# NOTE uses fastai v2; DataBlocks is not backward compatible with older versions (https://github.com/fastai/fastbook/blob/master/06_multicat.ipynb)
+# Tutorial on DataBlocks: https://github.com/fastai/fastai2/blob/master/nbs/50_tutorial.datablock.ipynb/
+# Data Loader docs https://docs.fast.ai/data.load
+# MultiCat tutorial https://github.com/fastai/fastbook/blob/master/06_multicat.ipynb
+
+images of learning rate training https://iconof.com/1cycle-learning-rate-policy/
+
+superconvergence: https://sgugger.github.io/the-1cycle-policy.html
+

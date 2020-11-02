@@ -1,3 +1,4 @@
 data/*
 Fine-Grained-Clothing-Classification/*
 mmfashion/*
+*.pth
