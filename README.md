@@ -1,4 +1,7 @@
-# Using computer vision to automate your attribute tagging 
+# Automating your product attribute tagging with FastAI and PyTorch 
+
+This repo contains a quick, one-script tutorial for training an image classifier using PyTorch and fastai. 
+
 
 ## The business case for automated product attribution using computer vision
 
